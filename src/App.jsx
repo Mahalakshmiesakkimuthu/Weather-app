@@ -30,7 +30,7 @@ import {
 
 import Forecast from "./pages/Forecast";
 import Map from "./pages/Map";
-import AirQuality from "./pages/AirQuality";
+import AirQuality from "./pages/Airquality";
 
 
 
