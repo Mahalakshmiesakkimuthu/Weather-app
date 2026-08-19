@@ -6,7 +6,7 @@
 -  Air quality information
 - Responsive design
 ## Technologies 
--React.js 
+- React.js 
 - JavaScript
 - HTML
 - CSS
