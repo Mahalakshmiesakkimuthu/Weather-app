@@ -1,4 +1,5 @@
-# SkyScope Weather App A responsive weather application built using React.js.
+# SkyScope Weather App 
+A responsive weather application built using React.js.
 ## Features
 - Search weather by city
 - Temperature display
