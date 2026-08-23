@@ -18,8 +18,6 @@ function Settings() {
   return (
     <div className={`settings-page ${darkMode ? "dark-mode" : ""}`}>
 
-      {/* Page Header */}
-
       <div className="settings-header">
         <div>
           <h1>Settings</h1>
@@ -27,8 +25,6 @@ function Settings() {
         </div>
       </div>
 
-
-      {/* General Settings */}
 
       <section className="settings-section">
 
@@ -94,9 +90,6 @@ function Settings() {
         </div>
 
       </section>
-
-
-      {/* Notifications */}
 
       <section className="settings-section">
 
@@ -164,9 +157,6 @@ function Settings() {
 
       </section>
 
-
-      {/* Appearance */}
-
       <section className="settings-section">
 
         <h2>Appearance</h2>
@@ -198,9 +188,6 @@ function Settings() {
         </div>
 
       </section>
-
-
-      {/* Account */}
 
       <section className="settings-section">
 

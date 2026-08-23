@@ -22,7 +22,6 @@ const getForecast = async () => {
     console.log("FORECAST CITY:", city);
 console.log("FORECAST DATA:", data);
 
-    // 하루க்கு ஒரு forecast மட்டும்
     const daily = data.list.filter((item) =>
       item.dt_txt.includes("12:00:00")
     );
@@ -39,8 +38,6 @@ useEffect(() => {
 }, [city]);
   return (
     <div className="forecast-page">
-
-      {/* Forecast Heading */}
       <div className="forecast-heading">
         <div>
           <h1>7-Day Forecast</h1>
@@ -49,8 +46,6 @@ useEffect(() => {
         </div>
       </div>
 
-
-      {/* 7 Day Forecast Cards */}
       <div className="forecast-cards">
         {forecast.map((day, index) => (
   <div className="forecast-card" key={index}>
@@ -92,9 +87,6 @@ useEffect(() => {
         
 
       </div>
-
-
-      {/* Temperature Information */}
       <div className="forecast-info">
 
         <div className="info-box">

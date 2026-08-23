@@ -76,9 +76,6 @@ function AirQuality({ city }) {
   return (
     <div className="air-quality-page">
       <h5>Current City: {city}</h5>
-
-      {/* Page Header */}
-
       <div className="air-header">
 
         <div>
@@ -92,9 +89,6 @@ function AirQuality({ city }) {
         </div>
 
       </div>
-
-      {/* AQI Main Card */}
-
       <section className="aqi-card">
 
         <div className="aqi-score">
@@ -170,17 +164,12 @@ function AirQuality({ city }) {
 
       </section>
 
-
-      {/* Pollutants */}
-
       <h2 className="air-title">
         Pollutants
       </h2>
 
 
       <div className="pollutant-grid">
-
-        {/* PM2.5 */}
 
         <div className="pollutant-card">
 
@@ -209,9 +198,6 @@ function AirQuality({ city }) {
 
         </div>
 
-
-        {/* PM10 */}
-
         <div className="pollutant-card">
 
           <div className="pollutant-top">
@@ -237,9 +223,6 @@ function AirQuality({ city }) {
 
         </div>
 
-
-        {/* CO */}
-
         <div className="pollutant-card">
 
           <div className="pollutant-top">
@@ -264,10 +247,6 @@ function AirQuality({ city }) {
           </div>
 
         </div>
-
-
-        {/* NO2 */}
-
         <div className="pollutant-card">
 
           <div className="pollutant-top">
@@ -294,8 +273,6 @@ function AirQuality({ city }) {
         </div>
 
 
-        {/* O3 */}
-
         <div className="pollutant-card">
 
           <div className="pollutant-top">
@@ -320,9 +297,6 @@ function AirQuality({ city }) {
           </div>
 
         </div>
-
-
-        {/* SO2 */}
 
         <div className="pollutant-card">
 
@@ -351,9 +325,6 @@ function AirQuality({ city }) {
 
       </div>
 
-
-      {/* Health Recommendation */}
-
       <section className="health-card">
 
         <FaExclamationTriangle
@@ -375,9 +346,6 @@ function AirQuality({ city }) {
         </div>
 
       </section>
-
-
-      {/* Air Quality Tips */}
 
       <section>
 

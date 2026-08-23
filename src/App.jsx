@@ -151,8 +151,6 @@ function App() {
                   Air Quality
                 </li>
 
-                
-
               </ul>
 
             </div>
