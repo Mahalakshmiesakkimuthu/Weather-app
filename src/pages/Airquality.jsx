@@ -12,7 +12,7 @@ function AirQuality({ city }) {
   const [airData, setAirData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+  const API_KEY = import.meta.env.SkyScope;
 
   const getAQIStatus = (aqi) => {
     switch (aqi) {
