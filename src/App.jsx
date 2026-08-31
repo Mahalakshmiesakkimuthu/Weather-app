@@ -44,7 +44,7 @@ function App() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+  const API_KEY = import.meta.env.SkyScope;
 
   const getWeatherIcon = (condition) => {
     switch (condition) {
